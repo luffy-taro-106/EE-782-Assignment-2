@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+deepface310/
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
