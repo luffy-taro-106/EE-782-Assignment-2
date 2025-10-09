@@ -3,11 +3,10 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-venv/
-env/
 deepface310/
 # Jupyter
 .ipynb_checkpoints/
+.env
 
 # OS
 .DS_Store
