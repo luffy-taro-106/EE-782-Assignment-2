@@ -10,3 +10,4 @@ deepface310/
 
 # OS
 .DS_Store
+.env
