@@ -91,16 +91,28 @@ Main Python libraries used:
 ```bash
 git clone https://github.com/luffy-taro-106/EE-782-Assignment-2
 cd EE-782-Assignment-2
+````
 
-2. **Install required dependencies:**
+## Running the System
+1. **Clone the repository:**
+```bash
+git clone https://github.com/luffy-taro-106/EE-782-Assignment-2
+cd EE-782-Assignment-2
+```
+
+2. **Install dependencies:**
+
 ```bash
 pip install -r requirements.txt
+```
 
 3. **Start the WebSocket server:**
 
 ```bash
 python websocket.py
 ```
+
+4. **R
 
 4. **Run the main notebook for the guard system:**
 
