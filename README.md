@@ -112,8 +112,6 @@ pip install -r requirements.txt
 python websocket.py
 ```
 
-4. **R
-
 4. **Run the main notebook for the guard system:**
 
 ```bash
