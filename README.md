@@ -1,5 +1,3 @@
-Here’s a polished and professional **README.md** based on your report content. It’s structured for clarity, easy navigation, and ready for GitHub or any repository:
-
 ````markdown
 # Voice-Activated AI Guard System
 **EE 782 - Advanced Topics in Machine Learning | Assignment 2**
