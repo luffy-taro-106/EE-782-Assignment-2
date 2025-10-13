@@ -1,4 +1,3 @@
-````markdown
 # Voice-Activated AI Guard System
 **EE 782 - Advanced Topics in Machine Learning | Assignment 2**
 **Submitted by:** Vishal (23B0745) and Darshan (23B1541)
@@ -23,14 +22,14 @@ Key objectives:
 ---
 
 ## Work Done
-- Implemented **audio command recognition** using OpenAI’s Whisper model.
+- Implemented **audio command recognition** using OpenAI's Whisper model.
 - Recorded four-second audio clips via the `sounddevice` library and converted them to text for wake/disarm detection.
 - Initially attempted **facial recognition** using Mediapipe Face Mesh (3D embeddings), but switched to `face_recognition` (128-D embeddings) due to inconsistent results.
 - Faces with similarity scores below 0.95 are flagged as "Unknown"; alarms trigger after 120 seconds of persistent unknown presence.
 - Developed a **GuardAgent class** to manage concurrent audio/video modules using threading.
 - WebSocket communication allows real-time remote monitoring.
 - Speech feedback is provided via `pyttsx3`, and alarms are handled with `pygame`.
-- Integrated **Gemini LLM** (via Google’s `genai` Python client) to interact with intruders with multiple escalation levels.
+- Integrated **Gemini LLM** (via Google's `genai` Python client) to interact with intruders with multiple escalation levels.
 
 Highlights:
 - Robust thread safety and concurrency handling.
@@ -87,17 +86,15 @@ Main Python libraries used:
 ---
 
 ## Running the System
+
 1. **Clone the repository:**
 ```bash
 git clone https://github.com/luffy-taro-106/EE-782-Assignment-2
 cd EE-782-Assignment-2
-````
 
-2. **Install dependencies:**
-
+2. **Install required dependencies:**
 ```bash
 pip install -r requirements.txt
-```
 
 3. **Start the WebSocket server:**
 
@@ -140,13 +137,6 @@ Replace `...` with additional images as needed.
 
 ---
 
-## Testing Face Recognition Accuracy
-
-* Run the designated cell in `Assignment_2.ipynb`.
-* Add new `.jpg` images to the `Testing` folder to evaluate recognition accuracy.
-
----
-
 ## Test Videos
 
 Sample videos for testing and demonstration are available [here](https://drive.google.com/drive/folders/18xqh7WUSsCWILDOIg_p7hxr3U-gVqBsU?usp=drive_link).
@@ -168,4 +158,5 @@ The Voice-Activated AI Guard System demonstrates:
 * Implement noise-robust wake-word detection.
 * Explore lightweight face embedding models such as FaceNet.
 
----
+
+
